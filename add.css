@@ -1,0 +1,117 @@
+
+/* //add form
+.fullform{
+	margin-left: 380px;
+	padding-top: 100px;
+} */
+.fullform{
+	border-bottom: 1px solid blue;
+}
+.heading-title {
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 100px;
+
+}
+.add-input-box{
+	margin-left: 3px;
+	padding-top: 10px;
+}
+.add-input-box input{
+	font-family: PT Serif;
+	margin-top: 10px;
+	width: 20%;
+	padding: 12px;
+/*	margin: 5px;*/
+display: inline-block;
+}
+.add-input-box label{
+	font-family: PT Serif;
+	color: black;
+	width: 151px;
+  display: inline-block;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 5px;
+}
+.add-input-box textarea{
+	font-family: PT Serif;
+	margin-top: 8px;
+	color: black;
+	width: 20%;
+  display: inline-block;
+	height: 75px;
+	padding: 12px;
+}
+::placeholder{
+	font-size: 15px;
+	padding-left: 10px;
+}
+.btnAdd{
+	font-family: Kanit;
+	text-align: center;
+
+	margin-top: 15px;
+	margin-left: 24px;
+	width: 168px;
+	height: 52px;
+	background: red;
+	border: 1px solid black;
+	color: white;
+	font-size: 25px;
+	border-radius: 2px;
+}
+/*list vehicle*/
+.list{
+	margin-left: 400px;
+	padding-top: 150px;
+}
+.h1list{
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.tablestyle, .tablestyle1{
+    border:1px solid black;
+    width: 90%;
+    border-collapse:collapse;
+}
+.tablestyle1 tr,th,td{
+    border:1px solid black;
+    height: 40px;
+
+}
+.tablestyle tr,th,td{
+    border:1px solid black;
+    height: 40px;
+}
+.tablestyle th{
+	font-size: 19px;
+	font-family: PT Serif;
+    background:lightgray;
+}
+.tablestyle td , .tablestyle1 td{
+    font-size: 15px;
+    font-family: Roboto;
+    padding-left: 17px;
+}
+.actioncol a{
+	border: none;
+	padding: 5px;            
+	text-decoration:none;
+    color:white;
+}
+.actioncol a.view{
+    background:green;
+    width: 20%;
+}
+.actioncol a.edit{
+    background:blue;
+    width: 20%;
+}
+.actioncol a.del{
+    background:red;
+    width: 20%;
+}

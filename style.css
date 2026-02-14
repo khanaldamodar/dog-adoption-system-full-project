@@ -1,0 +1,283 @@
+body,
+ html {
+   height: 100%;
+   background-repeat: no-repeat;
+   background-image: linear-gradient(rgba(88, 194, 236, 0.111), rgba(112, 102, 227, 0.007));
+ }
+
+  h1{
+  text-align: center;
+  text-decoration: no;
+  margin: 0px;
+}
+
+
+.form-group{
+    padding: 10px;
+    border-bottom: 1px solid blue;
+    
+  
+  }
+  .form-group .size {
+width: 500px;
+  }
+  #login_form fieldset{
+    width: 20%;
+    background-color: #f7f7f7;
+     /* just in case there no content*/
+     padding: 20px 25px 30px;
+     margin: 0 auto 25px;
+     margin-top: 125px;
+     /* shadows and rounded borders */
+     -moz-border-radius: 2px;
+     -webkit-border-radius: 2px;
+     border-radius: 2px;
+     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  #login_form .profile-admin {
+    width: 95px;
+    height: 50px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  
+  
+  #login_form fieldset{
+    width: 30%;
+   border-radius: 5px;
+   border: 2px solid black;
+    /* background-color: gray; */
+  }
+  
+  #login_form .form-group label{
+      width: 15%;
+      display: inline-block
+  }
+  
+  #login_form .form-group input{
+    width: 50%;
+    display: inline-block;
+    height: 30px;
+  }
+  #login_form .form-group input[type=checkbox]{
+    display: inline-block;
+    height: 30px;
+  }
+  
+    #login_form .form-group input[type=submit]{
+      width: 25%;
+      height:30px;
+      background-color:#0f0;
+      border:none;
+      margin-left: 15%;
+      color: #fff
+    }
+  
+  #login_form .form-group input[type=reset]{
+      width: 25%;
+      height:30px;
+      background-color: red;
+      border:none;
+      margin-left: 5%;
+      color: #fff
+     
+  }
+  
+  .form-group:last-child{
+      border-bottom: none;
+  }
+  
+  .error{
+    color: #f20;
+  }
+  
+  .error_message{
+    background-color: red;
+    color:#fff;
+    padding: 5px;
+   }
+   .success_message{
+    background-color: green;
+    color:#fff;
+    padding: 5px;
+   }
+  
+    .admin_menu   li{
+         display: inline-block;
+         width: 200px;
+         border:1px solid #FF6600;
+         padding:10px 5px;
+       }
+    .admin_menu li a{
+      text-decoration: none;
+      color: #FF6600;
+    }   
+    .admin_menu li:hover{
+      background-color:#FF6600;
+      color: #000;
+    }
+  
+    .wrapper{
+      padding: 1px 40px;
+    }
+  
+    /* Category from */
+    
+  #category_form fieldset{
+    width: 100%;
+  }
+  
+  #category_form .form-group label{
+      width: 15%;
+      display: inline-block
+  }
+  
+  #category_form .form-group input{
+    width: 50%;
+    display: inline-block;
+    height: 30px;
+  }
+  #category_form .form-group input[type=radio]{
+    display: inline-block;
+    height: 20px;
+    width: 20%;
+  }
+  
+    #category_form .form-group input[type=submit]{
+      width: 15%;
+      height:30px;
+      background-color:#0f0;
+      border:none;
+      margin-left: 15%;
+      color: #fff
+    }
+  
+  #category_form .form-group input[type=reset]{
+      width: 15%;
+      height:30px;
+      background-color: red;
+      border:none;
+      margin-left: 5%;
+      color: #fff
+     
+  }
+  .active_link{
+    background-color:#FF6600;
+    color: #fff;
+  }
+
+  /* listing table category*/
+  .list_table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .list_table tr,th,td{
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .list_table thead tr{
+    background-color: #ccc;
+  }
+  .action_column a{
+    border:1px solid #000;
+    padding: 5px;
+    background-color: #a74949;
+    text-decoration: none;
+  }
+  .action_column a.view{
+    background-color: #26a;
+ }
+  .action_column a.edit{
+    background-color: #aa2;
+ 
+  }
+  .action_column a.delete{
+    background-color: #f23;
+ 
+  }
+  .no_record{
+    /* background-color: #c21; */
+    color: #f17777;
+    padding:2px;
+    
+  }
+  /*end list*/
+  .view_table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .view_table tr,th,td{
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .view_table thead tr{
+    background-color: #ccc;
+  }
+  .success_message{
+    background-color: #0f0;
+  }
+  
+  .list{
+    /* margin-left: 400px; */
+    /* padding-top: 150px; */
+    margin-left: 20px;
+  }
+  .h1list{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .tablestyle, .tablestyle1{
+      border:1px solid black;
+      width: 90%;
+      border-collapse:collapse;
+  }
+  .tablestyle1 tr,th,td{
+      border:1px solid black;
+      height: 40px;
+  
+  }
+  .tablestyle tr,th,td{
+      border:1px solid black;
+      height: 40px;
+  }
+  .tablestyle th{
+    font-size: 19px;
+    font-family: PT Serif;
+      background:lightgray;
+  }
+  .tablestyle td , .tablestyle1 td{
+      font-size: 15px;
+      font-family: Roboto;
+      padding-left: 17px;
+  }
+  .actioncol a{
+    border: none;
+    padding: 5px;            
+    text-decoration:none;
+      color:white;
+  }
+  .actioncol a.view{
+      background:#FF6600;
+      width: 20%;
+  }
+  .actioncol a.edit{
+      background:blue;
+      width: 20%;
+  }
+  .actioncol a.del{
+      background:red;
+      width: 20%;
+  }
+  
+  

@@ -1,0 +1,99 @@
+<!-- DFD Level 0 (Context Diagram) -->
+<dfd level="0" name="Dog Adoption System">
+  <external_entities>
+    <entity name="Adopter"/>
+    <entity name="Donor"/>
+    <entity name="Admin"/>
+  </external_entities>
+  
+  <processes>
+    <process name="Dog Adoption System" id="0"/>
+  </processes>
+
+  <data_flows>
+    <flow from="Adopter" to="0" name="Login Credentials"/>
+    <flow from="0" to="Adopter" name="Login Status"/>
+    <flow from="Adopter" to="0" name="Adoption Form Data"/>
+    <flow from="0" to="Admin" name="Adoption Notification"/>
+    <flow from="Admin" to="0" name="Approval/Rejection Decision"/>
+    <flow from="0" to="Adopter" name="Adoption Status Notification"/>
+    <flow from="Donor" to="0" name="Donation Form Data"/>
+    <flow from="0" to="Admin" name="Donation Record"/>
+    <flow from="0" to="Donor" name="Donation Thank You"/>
+    <flow from="Admin" to="0" name="New Dog Information"/>
+    <flow from="0" to="Admin" name="System Reports"/>
+  </data_flows>
+</dfd>
+
+<!-- DFD Level 1 -->
+<dfd level="1" name="Detailed Process Flow">
+  <processes>
+    <process name="User Authentication" id="1"/>
+    <process name="Handle Adoption Process" id="2"/>
+    <process name="Handle Donation Process" id="3"/>
+    <process name="Admin Management" id="4"/>
+    <process name="Notification System" id="5"/>
+  </processes>
+
+  <data_stores>
+    <store name="Users" id="D1"/>
+    <store name="Dogs" id="D2"/>
+    <store name="Adoption Requests" id="D3"/>
+    <store name="Donations" id="D4"/>
+    <store name="Admin" id="D5"/>
+    <store name="Contact Messages" id="D6"/>
+  </data_stores>
+
+  <data_flows>
+    <!-- User Authentication Flows -->
+    <flow from="Adopter" to="1" name="Login Credentials"/>
+    <flow from="1" to="D1" name="Verify Credentials"/>
+    <flow from="D1" to="1" name="User Data"/>
+    <flow from="1" to="Adopter" name="Authentication Result"/>
+
+    <!-- Adoption Process Flows -->
+    <flow from="Adopter" to="2" name="Adoption Form"/>
+    <flow from="2" to="D3" name="Store Adoption Request"/>
+    <flow from="D3" to="4" name="Adoption Requests"/>
+    <flow from="4" to="D3" name="Updated Status"/>
+    <flow from="D3" to="5" name="Status Update"/>
+    <flow from="5" to="Adopter" name="Adoption Notification"/>
+
+    <!-- Donation Process Flows -->
+    <flow from="Donor" to="3" name="Donation Details"/>
+    <flow from="3" to="D4" name="Store Donation"/>
+    <flow from="D4" to="4" name="Donation Records"/>
+    <flow from="3" to="5" name="Donation Acknowledgement"/>
+    <flow from="5" to="Donor" name="Thank You Message"/>
+
+    <!-- Admin Management Flows -->
+    <flow from="Admin" to="4" name="New Dog Data"/>
+    <flow from="4" to="D2" name="Update Dog Records"/>
+    <flow from="D2" to="4" name="Dog Information"/>
+    <flow from="4" to="Admin" name="System Reports"/>
+    <flow from="Admin" to="4" name="Review Decision"/>
+  </data_flows>
+</dfd>
+
+<!-- DFD Level 2 (Adoption Process Detail) -->
+<dfd level="2" parent="2" name="Adoption Process Details">
+  <processes>
+    <process name="Submit Adoption Form" id="2.1"/>
+    <process name="Review Request" id="2.2"/>
+    <process name="Update Dog Status" id="2.3"/>
+    <process name="Send Notification" id="2.4"/>
+  </processes>
+
+  <data_flows>
+    <flow from="Adopter" to="2.1" name="Adoption Application"/>
+    <flow from="2.1" to="D3" name="Store Application"/>
+    <flow from="D3" to="2.2" name="Retrieve Application"/>
+    <flow from="2.2" to="Admin" name="Review Interface"/>
+    <flow from="Admin" to="2.2" name="Approval Decision"/>
+    <flow from="2.2" to="2.3" name="Approval Status"/>
+    <flow from="2.3" to="D2" name="Update Dog Availability"/>
+    <flow from="2.3" to="2.4" name="Notification Trigger"/>
+    <flow from="2.4" to="Adopter" name="Adoption Status"/>
+    <flow from="2.4" to="D3" name="Update Request Status"/>
+  </data_flows>
+</dfd>

@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Admin Management - Level 2" id="0">
+    <mxGraphModel dx="1926" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Admin" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-82" y="96" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Admin Login" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="100" width="100" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="eDCpuDCKZ0cGmsOg2NfJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDCpuDCKZ0cGmsOg2NfJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="131" />
+              <mxPoint x="875" y="580" />
+            </Array>
+            <mxPoint x="826.3553390593274" y="140.67766952966372" as="sourcePoint" />
+            <mxPoint x="367" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDCpuDCKZ0cGmsOg2NfJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.946;exitY=0.788;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="721.2000000000003" y="137.14000000000004" as="sourcePoint" />
+            <mxPoint x="357" y="467" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="721" y="144" />
+              <mxPoint x="721" y="151" />
+              <mxPoint x="796" y="151" />
+              <mxPoint x="796" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDCpuDCKZ0cGmsOg2NfJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="150" />
+              <mxPoint x="730" y="150" />
+              <mxPoint x="730" y="347" />
+            </Array>
+            <mxPoint x="350" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Dashboard Access" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="71" width="100" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Add Dogs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="200" width="100" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Review Adoption Requests" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="251" y="297" width="99" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="View Donations" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="266" y="531" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="View User Information" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="412" width="96" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Admin&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Database&lt;/div&gt;" style="shape=mxgraph.dfd.dataStoreID;rounded=1;whiteSpace=wrap;html=1;dashed=0;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="237" y="-70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Donation&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Database&lt;/div&gt;" style="shape=mxgraph.dfd.dataStoreID;rounded=1;whiteSpace=wrap;html=1;dashed=0;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="-63" y="443" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;User Database" style="shape=mxgraph.dfd.dataStoreID;rounded=1;whiteSpace=wrap;html=1;dashed=0;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="-92" y="343" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="219" y="125" />
+              <mxPoint x="219" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Login Verification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="3" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Access Granted" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="125" />
+              <mxPoint x="413" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Dog Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=0.032;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" edge="1" target="d6GOQrAu7ZkK0LVEo4qi-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59" y="223" as="targetPoint" />
+            <mxPoint x="243.3397638792576" y="231" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="253" y="223" />
+              <mxPoint x="141" y="223" />
+              <mxPoint x="141" y="224" />
+              <mxPoint x="48" y="224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Adoption Requests" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="6" edge="1" target="d6GOQrAu7ZkK0LVEo4qi-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="295" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="97" y="306" />
+              <mxPoint x="97" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Donation Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="7" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="User Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=0.244;exitY=0.105;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="418" />
+              <mxPoint x="5" y="418" />
+            </Array>
+            <mxPoint x="302" y="416" as="sourcePoint" />
+            <mxPoint x="5" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6GOQrAu7ZkK0LVEo4qi-22" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Dog Database" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="-98" y="204" width="114" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="d6GOQrAu7ZkK0LVEo4qi-23" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;AdoptionDatabase&lt;/blockquote&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=center;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="-98" y="270" width="126" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-27" value="4.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270.5" y="208.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-28" value="4.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-29" value="4.3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Text%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22270.5%22%20y%3D%22208.5%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="273" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-30" value="4.4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="278" y="422" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-31" value="4.5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="281" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PBDWTvawMqZXJyuvo5i-32" value="4.6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

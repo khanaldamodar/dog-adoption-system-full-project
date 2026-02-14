@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar #Animals{
+    background-color:#E85C0D;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .pet-info .pet-images {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .pet-info .pet-images .sm-imgs{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-top: 70px;
+   
+  }
+  .pet-info .pet-images .lg-img{
+    display: flex;
+    flex-basis: 50%;
+   
+  }
+  .pet-info .pet-images .sm-imgs img{
+   margin-top: 30px;
+   border-radius: 15px;
+  }
+  .pet-info .pet-images .lg-img img{
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+  .pet-info .pet-brief-description{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+
+    
+  }
+
+  .pet-brief-description .pet-desc p{
+    padding: 35px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+  }
+
+  .pet-info .pet-brief-description .brief-info{
+    display: flex;
+    flex-basis:100%;
+    justify-content:center;
+   
+  }
+  .pet-brief-description .brief-info ul li{
+ padding: 15px;
+ background-color: #D9D9D9;
+ width: 300px;
+
+ 
+  }
+  .btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    background-color:  #C21717;
+    margin-left: 1300px;
+    margin-top: 15px;
+    border: none;
+    margin-bottom: 30px;
+  }
+.btn:hover{
+    background-color: greenyellow;
+    transition: 0.5s ease-in-out;
+  }

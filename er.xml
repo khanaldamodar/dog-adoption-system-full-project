@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" connect="1" arrows="1">
+  <root>
+    <!-- Layers -->
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Strong Entities -->
+    <mxCell id="Adopter" value="Adopter" style="shape=rectangle;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="50" y="100" width="120" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Dog" value="Dog" style="shape=rectangle;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="250" y="100" width="120" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Admin" value="Admin" style="shape=rectangle;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="450" y="100" width="120" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Donor" value="Donor" style="shape=rectangle;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="650" y="100" width="120" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="SystemLogs" value="System Logs" style="shape=rectangle;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="850" y="100" width="120" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Weak Entities -->
+    <mxCell id="AdoptionRequest" value="Adoption Request" style="shape=rectangle;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="150" y="250" width="140" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Donation" value="Donation" style="shape=rectangle;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="750" y="250" width="120" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Relationships -->
+    <mxCell id="Adopts" value="Adopts" style="shape=rhombus;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="200" y="170" width="100" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Submits" value="Submits" style="shape=rhombus;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="100" y="320" width="100" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Donates" value="Donates" style="shape=rhombus;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="700" y="320" width="100" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Manages" value="Manages" style="shape=rhombus;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="400" y="170" width="100" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="Logs" value="Logs" style="shape=rhombus;strokeColor=#000000;" vertex="1" parent="1">
+      <mxGeometry x="800" y="170" width="100" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Connections -->
+    <mxCell id="AdopterToAdopts" edge="1" parent="1" source="Adopter" target="Adopts">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="DogToAdopts" edge="1" parent="1" source="Dog" target="Adopts">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="AdopterToSubmits" edge="1" parent="1" source="Adopter" target="Submits">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="AdminToManages" edge="1" parent="1" source="Admin" target="Manages">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="DonorToDonates" edge="1" parent="1" source="Donor" target="Donates">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

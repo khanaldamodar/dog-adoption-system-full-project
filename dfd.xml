@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Context Diagram" id="0">
+    <mxGraphModel dx="2015" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Adopter" style="ellipse;html=1;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Dog Adoption System (DAS)" style="ellipse;html=1;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="303" y="160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Admin" style="ellipse;html=1;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Donor" style="ellipse;html=1;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="930" y="451" width="98" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Adopter → DAS: Login, Adoption Form, Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="-10.000000000000455" as="sourcePoint" />
+            <mxPoint x="329.99999999999955" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="DAS → Adopter: Notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="3" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Admin → DAS: Manage, Review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=0.065;exitY=0.709;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" as="sourcePoint" />
+            <mxPoint x="439.99999999999955" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="DAS → Admin: Adoption Requests, Donations" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="184" as="sourcePoint" />
+            <mxPoint x="1090.68" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Donor → DAS: Donation Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;" parent="1" source="5" target="3" edge="1">
+          <mxGeometry x="-0.3806" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="481" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="DAS → Donor: Thank You Notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=0.959;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475.99999999999955" y="230" as="sourcePoint" />
+            <mxPoint x="1030" y="476" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="473" y="320" />
+              <mxPoint x="1206" y="320" />
+              <mxPoint x="1206" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

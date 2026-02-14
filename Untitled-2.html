@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #DFC2F2;
+            background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'EB Garamond', serif;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product-card {
+            box-shadow: 0 15px 30px 1px grey;
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+            margin: 10px;
+        }
+
+        .product-details {
+            padding: 20px;
+        }
+
+        .product-details h1 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 24px;
+            color: #344055;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 16px;
+            color: #7d7d7d;
+        }
+
+        .control {
+            margin-top: 10px;
+        }
+
+        .btn {
+            background: #809fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #1a66ff;
+        }
+
+        .btn .price {
+            margin-right: 10px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info {
+            background: rgba(27, 26, 26, 0.9);
+            color: #FFF;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .info h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .info ul li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .product-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="product-grid">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1606830733744-0ad778449672?auto=format&fit=crop&w=500&q=60" alt="Christmas Tree">
+        </div>
+        <div class="product-details">
+            <h1>CHRISTMAS TREE</h1>
+            <p>"Perfect Christmas tree to enhance your celebration."</p>
+            <div class="control">
+                <button class="btn">
+                    <span class="price">$250</span>
+                    <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
+                    <span class="buy">BUY NOW</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duplicate this product card 7 more times with slight changes if needed -->
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1576402187874-964b40cc8742?auto=format&fit=crop&w=500&q=60" alt="Snowy Christmas Tree">
+        </div>
+        <div class="product-details">
+            <h1>SNOWY TREE</h1>
+            <p>"A beautiful snowy-themed Christmas tree."</p>
+            <div class="control">
+                <button class="btn">
+                    <span class="price">$300</span>
+                    <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
+                    <span class="buy">BUY NOW</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1546395032-539d07f4b63d?auto=format&fit=crop&w=500&q=60" alt="Mini Christmas Tree">
+        </div>
+        <div class="product-details">
+            <h1>MINI TREE</h1>
+            <p>"A cute mini tree for your small spaces."</p>
+            <div class="control">
+                <button class="btn">
+                    <span class="price">$150</span>
+                    <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
+                    <span class="buy">BUY NOW</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repeat similar blocks for more products -->
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1606830733657-c168c376b2ab?auto=format&fit=crop&w=500&q=60" alt="Festive Tree">
+        </div>
+        <div class="product-details">
+            <h1>FESTIVE TREE</h1>
+            <p>"Brighten your home with this festive tree."</p>
+            <div class="control">
+                <button class="btn">
+                    <span class="price">$280</span>
+                    <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
+                    <span class="buy">BUY NOW</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add more cards similarly -->
+</div>
+
+</body>
+</html>
